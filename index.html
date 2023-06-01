@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/image/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Bigdog Store</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <img src="./assets/image/logoColor.png" alt="Bigdog" />
+        </div>
+        <div class="header__content">
+          <div class="header__top">
+            <div class="header__search">
+              <input
+                class="header__input"
+                type="text"
+                placeholder="Encuentra lo que buscas"
+              />
+              <div class="header__inputAction">
+                <i class="icon-search"></i>
+              </div>
+            </div>
+            <div class="header__wooCart">
+              <div class="header__cart">
+                <i class="icon-cart"></i>
+                <div class="header__cartCost">0</div>
+              </div>
+              <div class="header__amount">$0.00</div>
+              <div class="header__bar"><i class="icon-menu"></i></div>
+            </div>
+          </div>
+          <div class="header__bottom">
+            <nav>
+              <ul class="header__menu">
+                <li class="header__link">
+                  <a class="activeLink" href="./index.html">Inicio</a>
+                </li>
+                <li class="header__link">
+                  <a href="#">Tienda</a>
+                </li>
+                <li class="header__link">
+                  <a href="./services.html">Servicios</a>
+                </li>
+                <li class="header__link">
+                  <a href="./contact.html">Contacto</a>
+                </li>
+              </ul>
+            </nav>
+            <p class="header__welcome p t--white">
+              Bienvenidos a Bigdog store, 16 de Mayo de 2023
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section
+      class="section section__one background__cover--center section--wave"
+    >
+      <div class="sectionWave sectionWave--bottom">
+        <img src="./assets/image/waveone.svg" />
+      </div>
+      <div class="container">
+        <div class="grid">
+          <div class="grid__item">
+            <h1 class="h--one t--black mb-8">
+              Por el crecimiento sano de tus mascotas
+            </h1>
+            <p class="p t--black mb-8">
+              En Big Dog consigues alimentos, medicinas, accesorios y todo lo
+              que necesitas para el cuidado de tu mascota.
+            </p>
+            <button class="btn btn--primary btn--center" type="button">
+              Comprar ahora
+            </button>
+          </div>
+          <div class="grid__item">
+            <img
+              class="img--full"
+              src="./assets/image/seconeimage.png"
+              alt="Mascotas"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION TWO -->
+    <section class="section section__two">
+      <div class="container">
+        <div class="categories mb-6">
+          <div class="category">
+            <img src="./assets/image/cat.png" alt="Todo para los gatos" />
+            <h4 class="h-four t--black">Gatos</h4>
+          </div>
+          <div class="category">
+            <img src="./assets/image/dog.png" alt="Todo para los gatos" />
+            <h4 class="h-four t--black">Perros</h4>
+          </div>
+          <div class="category">
+            <img src="./assets/image/bird.png" alt="Todo para los gatos" />
+            <h4 class="h-four t--black">Aves</h4>
+          </div>
+          <div class="category">
+            <img src="./assets/image/fish.png" alt="Todo para los gatos" />
+            <h4 class="h-four t--black">Acuático</h4>
+          </div>
+          <div class="category">
+            <img src="./assets/image/reptil.png" alt="Todo para los gatos" />
+            <h4 class="h-four t--black">Reptiles</h4>
+          </div>
+          <div class="category">
+            <img src="./assets/image/cow.png" alt="Todo para los gatos" />
+            <h4 class="h-four t--black">De granja</h4>
+          </div>
+        </div>
+        <div class="grid grid__sidebar">
+          <div class="grid__item sidebar">
+            <div class="bannerSidebar">
+              <div class="bannerSidebar__text t--white mb-2">
+                NUEVA <br />ROPA
+              </div>
+              <div class="bannerSidebar__subDescription t--white">Comprar</div>
+              <img
+                class="bannerSidebar__image"
+                src="./assets/image/imageSidebar.png"
+                alt="Nueva ropa"
+              />
+            </div>
+          </div>
+          <div class="grid__item mb-12">
+            <div class="miniBanners">
+              <div
+                class="miniBanner miniBanner--red miniBanner--cat background__cover--center"
+              >
+                <div class="miniBanner__image">
+                  <img
+                    src="./assets/image/catBackFoodImg.png"
+                    alt="Alimento para perros"
+                  />
+                </div>
+                <div class="miniBanner__content">
+                  <div class="miniBanner__title t--right t--white">
+                    Alimentos <br />para gatos
+                  </div>
+                  <div class="miniBanner__action t--right t--white">
+                    Comprar
+                  </div>
+                </div>
+              </div>
+              <div class="miniBanner miniBanner--dog background__cover--center">
+                <div class="miniBanner__image">
+                  <img
+                    src="./assets/image/dogBackFoodImg.png"
+                    alt="Alimento para perros"
+                  />
+                </div>
+                <div class="miniBanner__content">
+                  <div class="miniBanner__title t--right t--black">
+                    Alimentos <br />para perro
+                  </div>
+                  <div class="miniBanner__action t--right t--black">
+                    Comprar
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="productLatest">
+              <div class="productLatest__header">
+                <h3 class="productLatest__title t--black">Lo más nuevo</h3>
+                <a href="#" class="link">Ver más</a>
+              </div>
+              <div class="productLatest__grid">
+                <div class="product">
+                  <img
+                    class="product__image"
+                    src="./assets/image/productExample.jpg"
+                    alt="Name producto"
+                  />
+                  <h4 class="product__title t--center">
+                    Cama para perro de lino gris mediana
+                  </h4>
+                  <div class="product__cost">
+                    <span class="product__discount t--gray">$12.00</span>
+                    <strong class="t--primary">$8.00</strong>
+                  </div>
+                  <button
+                    class="btn btn--small btn--primary btn--center"
+                    type="button"
+                  >
+                    Agregar al carrito
+                  </button>
+                </div>
+                <div class="product">
+                  <img
+                    class="product__image"
+                    src="./assets/image/productExample.jpg"
+                    alt="Name producto"
+                  />
+                  <h4 class="product__title t--center">
+                    Cama para perro de lino gris mediana
+                  </h4>
+                  <div class="product__cost">
+                    <span class="product__discount t--gray">$12.00</span>
+                    <strong class="t--primary">$8.00</strong>
+                  </div>
+                  <button
+                    class="btn btn--small btn--primary btn--center"
+                    type="button"
+                  >
+                    Agregar al carrito
+                  </button>
+                </div>
+                <div class="product">
+                  <img
+                    class="product__image"
+                    src="./assets/image/productExample.jpg"
+                    alt="Name producto"
+                  />
+                  <h4 class="product__title t--center">
+                    Cama para perro de lino gris mediana
+                  </h4>
+                  <div class="product__cost">
+                    <span class="product__discount t--gray">$12.00</span>
+                    <strong class="t--primary">$8.00</strong>
+                  </div>
+                  <button
+                    class="btn btn--small btn--primary btn--center"
+                    type="button"
+                  >
+                    Agregar al carrito
+                  </button>
+                </div>
+                <div class="product">
+                  <img
+                    class="product__image"
+                    src="./assets/image/productExample.jpg"
+                    alt="Name producto"
+                  />
+                  <h4 class="product__title t--center">
+                    Cama para perro de lino gris mediana
+                  </h4>
+                  <div class="product__cost">
+                    <span class="product__discount t--gray">$12.00</span>
+                    <strong class="t--primary">$8.00</strong>
+                  </div>
+                  <button
+                    class="btn btn--small btn--primary btn--center"
+                    type="button"
+                  >
+                    Agregar al carrito
+                  </button>
+                </div>
+                <div class="product">
+                  <img
+                    class="product__image"
+                    src="./assets/image/productExample.jpg"
+                    alt="Name producto"
+                  />
+                  <h4 class="product__title t--center">
+                    Cama para perro de lino gris mediana
+                  </h4>
+                  <div class="product__cost">
+                    <span class="product__discount t--gray">$12.00</span>
+                    <strong class="t--primary">$8.00</strong>
+                  </div>
+                  <button
+                    class="btn btn--small btn--primary btn--center"
+                    type="button"
+                  >
+                    Agregar al carrito
+                  </button>
+                </div>
+                <div class="product">
+                  <img
+                    class="product__image"
+                    src="./assets/image/productExample.jpg"
+                    alt="Name producto"
+                  />
+                  <h4 class="product__title t--center">
+                    Cama para perro de lino gris mediana
+                  </h4>
+                  <div class="product__cost">
+                    <span class="product__discount t--gray">$12.00</span>
+                    <strong class="t--primary">$8.00</strong>
+                  </div>
+                  <button
+                    class="btn btn--small btn--primary btn--center"
+                    type="button"
+                  >
+                    Agregar al carrito
+                  </button>
+                </div>
+                <div class="product">
+                  <img
+                    class="product__image"
+                    src="./assets/image/productExample.jpg"
+                    alt="Name producto"
+                  />
+                  <h4 class="product__title t--center">
+                    Cama para perro de lino gris mediana
+                  </h4>
+                  <div class="product__cost">
+                    <span class="product__discount t--gray">$12.00</span>
+                    <strong class="t--primary">$8.00</strong>
+                  </div>
+                  <button
+                    class="btn btn--small btn--primary btn--center"
+                    type="button"
+                  >
+                    Agregar al carrito
+                  </button>
+                </div>
+                <div class="product">
+                  <img
+                    class="product__image"
+                    src="./assets/image/productExample.jpg"
+                    alt="Name producto"
+                  />
+                  <h4 class="product__title t--center">
+                    Cama para perro de lino gris mediana
+                  </h4>
+                  <div class="product__cost">
+                    <span class="product__discount t--gray">$12.00</span>
+                    <strong class="t--primary">$8.00</strong>
+                  </div>
+                  <button
+                    class="btn btn--small btn--primary btn--center"
+                    type="button"
+                  >
+                    Agregar al carrito
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bannerSidebar">
+            <div class="bannerSidebar__text t--white mb-2">
+              NUEVA <br />ROPA
+            </div>
+            <div class="bannerSidebar__subDescription t--white">Comprar</div>
+            <img
+              class="bannerSidebar__image"
+              src="./assets/image/imageSidebar.png"
+              alt="Nueva ropa"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section--p-top-0">
+      <div class="container">
+        <div class="grid grid__third--one">
+          <div class="grid__item">
+            <span class="section__subtitle t--primary mb-4"
+              >Nuestro servicios</span
+            >
+            <h2 class="h--two t--black mb-6">
+              Somos la solución para hacer feliz a tu mascota.
+            </h2>
+          </div>
+          <div class="grid__item">
+            <p class="p t--black mb-6">
+              Ofrecemos venta al mayor y detal de artículos para mascotas,
+              incluyendo accesorios, alimentos, medicinas y todo lo relacionado
+              con el cuidado y bienestar de tu mascota. Además al visitarnos tu
+              fiel amigo podrá disfrutar del servicio de peluquería y atención
+              veterinaria
+            </p>
+            <button class="btn btn--primary btn--center" type="button">
+              Saber más
+            </button>
+          </div>
+        </div>
+        <div class="services">
+          <div class="service">
+            <img
+              class="service__image"
+              src="./assets/image/veterinaria.png"
+              alt="Veterinaria"
+            />
+            <h3 class="service__title">Veterinaria</h3>
+            <p class="service__text t--center">
+              Nuestros médicos están capacitados para brindarle a tu mascota una
+              excelente atención y cuidados para preservar su salud y bienestar
+            </p>
+          </div>
+          <div class="service">
+            <img
+              class="service__image"
+              src="./assets/image/peluquería.png"
+              alt="Veterinaria"
+            />
+            <h3 class="service__title">Peluquería</h3>
+            <p class="service__text t--center">
+              Al visitar nuestras áreas de grooming tus mascotas vivirán una
+              experiencia única y disfrutarán de lucir radiantes
+            </p>
+          </div>
+          <div class="service">
+            <img
+              class="service__image"
+              src="./assets/image/potshop.png"
+              alt="Veterinaria"
+            />
+            <h3 class="service__title">Tienda de mascotas</h3>
+            <p class="service__text t--center">
+              Visítanos y adquiere todo lo necesario para el día a día de tu
+              mascota; juguetes, alimentos, snacks, accesorios, ropa y más
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="section footer section--p-bottom-0 section--wave">
+      <div class="sectionWave sectionWave--top">
+        <img src="./assets/image/wavetwo.svg" />
+      </div>
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__topItem">
+            <img
+              class="footer__topLogo"
+              src="./assets/image/logoColor.png"
+              alt="Bigdog store"
+            />
+            <p class="footer__topDescription p">
+              Ofrecemos venta al mayor y detal de artículos para mascotas
+              incluyendo accesorios, alimentos y medicinas
+            </p>
+            <div class="footer__topSocials">
+              <a href="#" class="social">
+                <i class="icon-instagram"></i>
+              </a>
+              <a href="#" class="social">
+                <i class="icon-facebook"></i>
+              </a>
+            </div>
+          </div>
+          <div class="footer__topItem">
+            <h3 class="footer__topTitle t--black">Servicios</h3>
+            <div class="footer__topLinks">
+              <a href="#" class="link">Link</a>
+              <a href="#" class="link">Link</a>
+              <a href="#" class="link">Link</a>
+              <a href="#" class="link">Link</a>
+              <a href="#" class="link">Link</a>
+              <a href="#" class="link">Link</a>
+              <a href="#" class="link">Link</a>
+            </div>
+          </div>
+          <div class="footer__topItem">
+            <h3 class="footer__topTitle t--black">Métodos de pago</h3>
+            <div class="footer__topLinks payments">
+              <img src="./assets/image/cat.png" alt="paymeny" />
+              <img src="./assets/image/cat.png" alt="paymeny" />
+              <img src="./assets/image/cat.png" alt="paymeny" />
+            </div>
+          </div>
+        </div>
+        <div class="separator"></div>
+        <div class="footer__bottom">
+          <p class="footer__bottomCopy p">
+            Copyright © 2023 Bigdog Todos los derechos reservados.
+          </p>
+          <img
+            class="footer__bottomCopyImage"
+            src="./assets/image/copy.png"
+            alt="Bigdog store"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
